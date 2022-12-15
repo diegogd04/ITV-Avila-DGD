@@ -1,4 +1,4 @@
-package com.dgd.ITV.demo.domain.usecase;
+/**package com.dgd.ITV.demo.domain.usecase;
 
 import com.dgd.ITV.demo.data.DemoDataStore;
 import com.dgd.ITV.demo.domain.models.Demo;
@@ -10,3 +10,4 @@ public class EliminarDemoUseCase {
         dataStore.eliminar(codigo);
     }
 }
+*/
