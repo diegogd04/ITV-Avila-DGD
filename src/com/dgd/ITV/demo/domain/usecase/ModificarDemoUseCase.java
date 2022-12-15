@@ -1,4 +1,4 @@
-package com.dgd.ITV.demo.domain.usecase;
+/**package com.dgd.ITV.demo.domain.usecase;
 
 import com.iesam.itvavila.demo.data.DemoDataStore;
 import com.iesam.itvavila.demo.domain.models.Demo;
@@ -10,3 +10,4 @@ public class ModificarDemoUseCase {
         dataStore.modificar(model);
     }
 }
+*/
