@@ -1,4 +1,4 @@
-package com.dgd.ITV.domain;
+package com.dgd.ITV.domain.models;
 
 public class Propietario {
     private String dni;

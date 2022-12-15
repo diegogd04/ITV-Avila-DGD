@@ -1,13 +1,12 @@
-package com.dgd.ITV.domain;
+package com.dgd.ITV.domain.models;
 
-public class Camion implements Vehiculo{
+public class Coche implements Vehiculo{
     private String matricula;
     private String marca;
     private String modelo;
     private String color;
     private Integer anoMatriculacion;
-    private Integer tara;
-    private Integer longitud;
+    private Integer numPuertas;
 
     public String getMatricula() {
         return matricula;
@@ -49,19 +48,11 @@ public class Camion implements Vehiculo{
         this.anoMatriculacion = anoMatriculacion;
     }
 
-    public Integer getTara() {
-        return tara;
+    public Integer getNumPuertas() {
+        return numPuertas;
     }
 
-    public void setTara(Integer tara) {
-        this.tara = tara;
-    }
-
-    public Integer getLongitud() {
-        return longitud;
-    }
-
-    public void setLongitud(Integer longitud) {
-        this.longitud = longitud;
+    public void setNumPuertas(Integer numPuertas) {
+        this.numPuertas = numPuertas;
     }
 }
