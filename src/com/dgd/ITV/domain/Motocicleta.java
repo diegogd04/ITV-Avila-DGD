@@ -1,6 +1,6 @@
 package com.dgd.ITV.domain;
 
-public class Motocicleta {
+public class Motocicleta implements Vehiculo{
     private String matricula;
     private String marca;
     private String modelo;
